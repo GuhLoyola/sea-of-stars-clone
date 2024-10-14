@@ -19,7 +19,9 @@ export default {
         'dark-vanilla': '#b8af9d'
       },
       backgroundImage: {
-        'hero-pattern': "url('./src/assets/images/seaOfStars_bg.jpg')"
+        'hero-pattern': "url('./src/assets/images/seaOfStars_bg.jpg')",
+        'dlc-hero-pattern': "url('./src/assets/images/seaOfStars_dlc_bg.png')",
+        'dlc-hero-pattern-mobile': "url('./src/assets/images/seaOfStars_dlc_bg_mobile.png')"
       },
       fontFamily: {
         'orpheus-pro': 'Orpheus Pro',
