@@ -12,24 +12,26 @@ const AnimatedRoutes = () => {
             <Routes location={location} key={location.pathname}>
                 <Route path='/'
                     element={
-                        <motion.span
+                        <motion.div
                             initial={{ opacity: 0 }}
                             animate={{ opacity: 1 }}
                             exit={{ opacity: 0, transition: { duration: 0.5 } }}
+                            className="inline"
                         >
                             <Home />
-                        </motion.span>
+                        </motion.div>
                     }
                 />
                 <Route path="/throes-of-the-watchmaker-dlc"
                     element={
-                        <motion.span
+                        <motion.div
                             initial={{ opacity: 0 }}
                             animate={{ opacity: 1 }}
                             exit={{ opacity: 0 }}
+                            className="inline"
                         >
                             <DLC />
-                        </motion.span>
+                        </motion.div>
                     }
                 />
             </Routes>
