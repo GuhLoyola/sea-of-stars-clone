@@ -1,4 +1,5 @@
 import { motion, useCycle, AnimatePresence, MotionConfig } from "framer-motion"
+import { Link } from "react-router-dom"
 
 const Navbar = () => {
 
@@ -88,10 +89,10 @@ const Navbar = () => {
                   >
                     <ul className="space-y-5 ">
                       <li>
-                        <a href="#" className="text-4xl font-bold">Home</a>
+                        <Link to='/' className="text-4xl font-bold">Home</Link>
                       </li>
                       <li>
-                        <a href="#" className="text-4xl font-bold">DLC</a>
+                        <Link to='/throes-of-the-watchmaker-dlc' className="text-4xl font-bold">DLC</Link>
                       </li>
                       <li>
                         <a href="#" className="text-4xl font-bold">FAQ</a>
@@ -144,12 +145,12 @@ const Navbar = () => {
           <ul className="flex gap-8 text-xl">
 
             <li className="relative group cursor-pointer">
-              <a href="#">Home</a>
+              <Link to='/'>Home</Link>
               <span className="absolute left-0 bottom-[-5px] w-0 h-1 rounded-xl bg-off-white transition-all duration-300 group-hover:w-full"></span>
             </li>
 
             <li className="relative group cursor-pointer">
-              <a href="#">DLC</a>
+              <Link to='/throes-of-the-watchmaker-dlc'>DLC</Link>
               <span className="absolute left-0 bottom-[-5px] w-0 h-1 rounded-xl bg-off-white transition-all duration-300 group-hover:w-full"></span>
             </li>
 
