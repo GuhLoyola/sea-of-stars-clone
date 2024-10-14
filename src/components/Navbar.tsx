@@ -128,7 +128,7 @@ const Navbar = () => {
                       }
                     }}
                     className="flex justify-center">
-                    <a href="#" target="_blank" className="link">
+                    <a href="https://seaofstars.iam8bit.com/us/" target="_blank" className="link">
                       <span className="z-10">
                         Comprar jogo
                       </span>
@@ -164,7 +164,7 @@ const Navbar = () => {
               <span className="absolute left-0 bottom-[-5px] w-0 h-1 rounded-xl bg-off-white transition-all duration-300 group-hover:w-full"></span>
             </li>
           </ul>
-          <a href="#" target="_blank" className="link">
+          <a href="https://seaofstars.iam8bit.com/us/" target="_blank" className="link">
             <span className="z-10">
               Comprar jogo
             </span>
