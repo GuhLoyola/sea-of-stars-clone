@@ -16,7 +16,8 @@ export default {
         'pale-beige': '#ddd2c5',
         'dark-charcoal': '#48453e',
         'dark-grayish-brown': '#524E47',
-        'dark-vanilla': '#b8af9d'
+        'dark-vanilla': '#b8af9d',
+        'dark-teal': '#122A2C'
       },
       backgroundImage: {
         'hero-pattern': "url('./src/assets/images/seaOfStars_bg.jpg')",
