@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .link {
+        @apply rounded-lg bg-azure-blue w-[200px] h-[50px] text-off-white hover:text-white flex justify-center items-center font-semibold uppercase tracking-[0.25em] relative
+    }
+
+    .link::before {
+        @apply rounded-lg content-[''] absolute w-[100%] h-[100%] bg-gradient-to-r from-medium-aquamarine to-azure-blue top-0 left-0 scale-x-0 transition-transform ease-in-out origin-left duration-500
+    }
+
+    .link:hover::before {
+        @apply scale-x-100 origin-left
+    }
+}
