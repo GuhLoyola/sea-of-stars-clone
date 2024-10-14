@@ -1,4 +1,4 @@
-import AppRoutes from "./routes/indext";
+import AppRoutes from "./routes";
 
 function App() {
 
