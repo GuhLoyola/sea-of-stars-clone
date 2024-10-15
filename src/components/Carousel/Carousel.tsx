@@ -61,7 +61,7 @@ const Carousel: React.FC<CarouselProps> = ({ slides }) => {
 
     return (
         <div>
-            <div className="m-auto w-[60vw] aspect-video relative overflow-hidden rounded-2xl">
+            <div className="md:w-[40vw] w-[100vw] max-md:rounded-tr-lg max-md:rounded-tl-lg aspect-video relative overflow-hidden">
                 <AnimatePresence initial={false} custom={direction}>
                     <motion.img
                         variants={imageVariants}
@@ -76,11 +76,11 @@ const Carousel: React.FC<CarouselProps> = ({ slides }) => {
                     />
                 </AnimatePresence>
 
-                <button className='text-lg w-16 aspect-square rounded-full cursor-pointer text-center text-off-white bg-dark-midnight-blue hover:bg-azure-blue absolute top-1/2 left-4 -translate-y-1/2 duration-300' onClick={prevImage}>
+                <button className='text-lg w-10 aspect-square rounded-full cursor-pointer text-center text-off-white bg-dark-teal hover:bg-azure-blue absolute top-1/2 left-2 -translate-y-1/2 duration-300' onClick={prevImage}>
                     <FaArrowLeft className='w-full' />
                 </button>
 
-                <button className='text-lg w-16 aspect-square rounded-full cursor-pointer text-center text-off-white bg-dark-midnight-blue hover:bg-azure-blue absolute top-1/2 right-4 -translate-y-1/2 duration-300' onClick={nextImage}>
+                <button className='text-lg w-10 aspect-square rounded-full cursor-pointer text-center text-off-white bg-dark-teal hover:bg-azure-blue absolute top-1/2 right-2 -translate-y-1/2 duration-300' onClick={nextImage}>
                     <FaArrowRight className='w-full' />
                 </button>
             </div>
