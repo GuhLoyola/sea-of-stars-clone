@@ -1,7 +1,8 @@
 import { BrowserRouter, Route, Routes, useLocation } from "react-router-dom"
+import { AnimatePresence, motion } from "framer-motion"
 import Home from "../pages/Home"
 import DLC from "../pages/Dlc"
-import { AnimatePresence, motion } from "framer-motion"
+import FAQ from "../pages/Faq"
 
 const AnimatedRoutes = () => {
 
@@ -31,6 +32,18 @@ const AnimatedRoutes = () => {
                             className="inline"
                         >
                             <DLC />
+                        </motion.div>
+                    }
+                />
+                <Route path="/faq"
+                    element={
+                        <motion.div
+                            initial={{ opacity: 0 }}
+                            animate={{ opacity: 1 }}
+                            exit={{ opacity: 0 }}
+                            className="inline"
+                        >
+                            <FAQ />
                         </motion.div>
                     }
                 />
