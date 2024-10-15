@@ -1,3 +1,4 @@
+import Cards from "../components/Cards/Cards"
 import Footer from "../components/Footer"
 import DlcHero from "../components/Heroes/DlcHero"
 import Navbar from "../components/Navbar"
@@ -12,6 +13,7 @@ const DLC = () => {
             <main>
                 <DlcHero />
                 <DlcTrailer />
+                <Cards />
             </main>
             <Footer />
         </>
