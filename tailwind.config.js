@@ -12,7 +12,9 @@ export default {
         'sky-blue': '#3BD0F9',
         'medium-aquamarine': '#3FD8C4',
         'off-white': '#F5F5F5',
+        'light-peach': '#FFDDB1',
         'pale-peach': '#F6EEE0',
+        'gray-beige': '#B8A889',
         'pale-beige': '#ddd2c5',
         'dark-charcoal': '#48453e',
         'dark-grayish-brown': '#524E47',
@@ -27,6 +29,7 @@ export default {
       fontFamily: {
         'orpheus-pro': 'Orpheus Pro',
         'poppins': 'Poppins',
+        'rye': 'Rye'
       }
 
     },
