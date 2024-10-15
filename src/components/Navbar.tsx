@@ -1,4 +1,5 @@
 import { motion, useCycle, AnimatePresence, MotionConfig } from "framer-motion"
+import { FaDiscord } from "react-icons/fa6"
 import { Link } from "react-router-dom"
 
 const Navbar = () => {
@@ -95,10 +96,16 @@ const Navbar = () => {
                         <Link to='/throes-of-the-watchmaker-dlc' className="text-4xl font-bold">DLC</Link>
                       </li>
                       <li>
-                        <a href="#" className="text-4xl font-bold">FAQ</a>
+                        <Link to='/faq' className="text-4xl font-bold">FAQ</Link>
                       </li>
                       <li>
-                        <a href="#" className="text-4xl font-bold">Compendium</a>
+                        <a href="https://discord.gg/sabotagestudio" target="_blank"
+                          className="text-4xl font-bold">
+                          <div className="flex items-center justify-center">
+                            <FaDiscord className="mr-2" />
+                            Sabotage Studios
+                          </div>
+                        </a>
                       </li>
                     </ul>
                   </motion.div>
@@ -155,12 +162,17 @@ const Navbar = () => {
             </li>
 
             <li className="relative group cursor-pointer">
-              <a href="#">FAQ</a>
+              <Link to='/faq'>FAQ</Link>
               <span className="absolute left-0 bottom-[-5px] w-0 h-1 rounded-xl bg-off-white transition-all duration-300 group-hover:w-full"></span>
             </li>
 
             <li className="relative group cursor-pointer">
-              <a href="#">Compendium</a>
+              <a href="https://discord.gg/sabotagestudio" target="_blank">
+                <div className="flex items-center justify-center">
+                  <FaDiscord className="mr-2" />
+                  Sabotage Studios
+                </div>
+              </a>
               <span className="absolute left-0 bottom-[-5px] w-0 h-1 rounded-xl bg-off-white transition-all duration-300 group-hover:w-full"></span>
             </li>
           </ul>
