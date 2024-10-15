@@ -1,3 +1,4 @@
+import Arty from "../components/Arty/Arty"
 import Cards from "../components/Cards/Cards"
 import Footer from "../components/Footer"
 import DlcHero from "../components/Heroes/DlcHero"
@@ -16,6 +17,7 @@ const DLC = () => {
                 <DlcTrailer />
                 <Cards />
                 <Troupe />
+                <Arty />
             </main>
             <Footer />
         </>
