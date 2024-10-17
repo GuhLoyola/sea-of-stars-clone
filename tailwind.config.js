@@ -22,9 +22,9 @@ export default {
         'dark-teal': '#122A2C'
       },
       backgroundImage: {
-        'hero-pattern': "url('src/assets/images/seaOfStars-bg.png')",
-        'dlc-hero-pattern': "url('src/assets/images/seaOfStars-dlc-bg.png')",
-        'dlc-hero-pattern-mobile': "url('src/assets/images/seaOfStars-dlc-bg-mobile.png')"
+        'hero-pattern': "url('/background.png')",
+        'dlc-hero-pattern': "url('/backgroundDlc.png')",
+        'dlc-hero-pattern-mobile': "url('/backgroundDlc-mobile.png')"
       },
       fontFamily: {
         'orpheus-pro': 'Orpheus Pro',
