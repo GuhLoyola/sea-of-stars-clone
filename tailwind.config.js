@@ -27,7 +27,7 @@ export default {
         'dlc-hero-pattern-mobile': "url('/backgroundDlc-mobile.png')"
       },
       fontFamily: {
-        'orpheus-pro': 'Orpheus Pro',
+        'orpheus-pro': ['Orpheus Pro', 'Playfair Display'],
         'poppins': 'Poppins',
         'rye': 'Rye'
       }
