@@ -22,9 +22,9 @@ export default {
         'dark-teal': '#122A2C'
       },
       backgroundImage: {
-        'hero-pattern': "url('src/assets/images/background.png')",
-        'dlc-hero-pattern': "url('src/assets/images/backgroundDlc.png')",
-        'dlc-hero-pattern-mobile': "url('src/assets/images/backgroundDlc-mobile.png')"
+        'hero-pattern': "url('/background.png')",
+        'dlc-hero-pattern': "url('/backgroundDlc.png')",
+        'dlc-hero-pattern-mobile': "url('/backgroundDlc-mobile.png')"
       },
       fontFamily: {
         'orpheus-pro': 'Orpheus Pro',
